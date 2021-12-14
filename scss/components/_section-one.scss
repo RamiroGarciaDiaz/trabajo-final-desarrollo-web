@@ -1,0 +1,27 @@
+// Section One
+
+@import "../base/variables";
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.div-section-1 {
+    background-image: url(Multimedia/apertura.jpg);
+    height: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-section-1 {
+    font-family: var($sora);
+    font-size: $tamañoTitulos;
+    color: white;
+    word-spacing: $wordSpacing;
+    margin: $tamañoParrafos;
+    padding-right: 600px;
+    padding-top: 1px;
+}

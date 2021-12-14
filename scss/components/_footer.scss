@@ -1,0 +1,33 @@
+// Footer
+
+@import "../base/variables";
+
+.title-contacto {
+    @extend %titulos;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-enlace {
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+}
+
+.link-footer {
+    color: white;
+}
+
+.ubicacion-maps {
+    height: 20vh;
+    width: 25vw;
+    margin: 20px;
+}

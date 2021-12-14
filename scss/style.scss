@@ -1,0 +1,42 @@
+@import "components/header";
+@import "components/section-one";
+@import "components/section-two";
+@import "components/nosotros";
+@import "components/servicios";
+@import "components/clientes";
+@import "components/footer";
+@import "base/variables";
+@import "base/extends";
+@import "base/mixins";
+@import "base/maps";
+@import "base/listas";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    background-image: url(../Multimedia/materia\ prima1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background: linear-gradient(blue,rgb(4, 194, 4) )
+}
+
+main {
+    background-color: rgba(252, 252, 252, 0.8);
+    
+}

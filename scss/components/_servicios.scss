@@ -1,0 +1,55 @@
+// Servicios 
+
+@import "../base/mixins";
+@import "../base/variables";
+
+.title-servicios {
+    @extend %titulos;
+}
+
+.subtitle-servicios {
+    text-align: center;
+    font-family: $sora;
+    font-size: $tamañoSubtitulos;
+    text-decoration: underline;
+    margin: $marginSubtitulos;
+}
+
+.paragraph-servicios-1 {
+    font-family: $roboto;
+    font-size: $tamañoParrafos;
+    word-spacing: $wordSpacing;
+    margin: $marginParrafos;
+}
+
+.servicios-img1 {
+    @include tamaño-img(300px, 300px, 20px);
+}
+
+.paragraph-servicios-2 {
+    font-family: $roboto;
+    font-size: $tamañoParrafos;
+    word-spacing: $wordSpacing;
+    margin: $marginParrafos;
+}
+
+.servicios.img2 {
+    @include tamaño-img(300px, 300px, 20px);
+}
+
+.paragraph-servicios-3 {
+    font-family: $roboto;
+    font-size: $tamañoParrafos;
+    word-spacing: $wordSpacing;
+    margin: $marginParrafos;
+}
+
+.servicios-img3 {
+    @include tamaño-img(300px, 300px, 20px);
+}
+
+.flex-container-servicios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

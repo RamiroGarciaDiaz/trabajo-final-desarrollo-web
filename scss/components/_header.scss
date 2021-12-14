@@ -1,0 +1,27 @@
+// Header
+
+@import "../base/variables";
+
+.design-navbar {
+    background-color: $colorPrincipal;
+}
+
+.design-item-navbar {
+    background-color: $colorPrincipal;
+    border: 2px solid rgb(4, 194, 4);
+}
+
+.design-item-navbar:hover {
+    background-color: $colorSecundario;
+    border:2px solid $colorPrincipal;
+    transition: all 0.8s;
+}
+
+.design-link-navbar {
+    color: $colorSecundario;
+    font-family: $sora;
+}
+
+.design-link-navbar:hover {
+    color: $colorPrincipal;
+}

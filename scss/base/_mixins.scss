@@ -1,0 +1,5 @@
+@mixin tamaño-img($alto, $ancho,$margen) {
+    height: $alto;
+    width: $ancho;
+    margin: $margen;
+}

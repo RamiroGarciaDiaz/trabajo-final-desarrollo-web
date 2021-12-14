@@ -1,0 +1,16 @@
+// Nosotros 
+
+@import "../base/variables";
+@import "../base/maps";
+
+.title-nosotros {
+    @extend %titulos;
+}    
+
+.paragraph-nosotros {
+    font-family: map-get($parrafos, fuente);
+    font-size: map-get($parrafos, tamaño);
+    text-align: center;
+    word-spacing: map-get($parrafos, word-spacing);
+    margin: $marginParrafos;
+}

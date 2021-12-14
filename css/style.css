@@ -1,0 +1,242 @@
+.design-navbar {
+  background-color: #0E49B5;
+}
+
+.design-item-navbar {
+  background-color: #0E49B5;
+  border: 2px solid #04c204;
+}
+
+.design-item-navbar:hover {
+  background-color: #54E346;
+  border: 2px solid #0E49B5;
+  transition: all 0.8s;
+}
+
+.design-link-navbar {
+  color: #54E346;
+  font-family: "Sora", sans-serif;
+}
+
+.design-link-navbar:hover {
+  color: #0E49B5;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.div-section-1 {
+  background-image: url(Multimedia/apertura.jpg);
+  height: 600px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph-section-1 {
+  font-family: var("Sora", sans-serif);
+  font-size: 2.5rem;
+  color: white;
+  word-spacing: 1px;
+  margin: 1rem;
+  padding-right: 600px;
+  padding-top: 1px;
+}
+
+.section-2 {
+  font-family: "Sora", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-decoration: bolder;
+  margin: 20px;
+}
+
+.section-2-img1 {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.section-2-img2 {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.section-2-img3 {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.paragraph-section-2 {
+  padding-left: 90px;
+}
+
+.paragraph-nosotros {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  word-spacing: 1px;
+  margin: 20px;
+}
+
+.subtitle-servicios {
+  text-align: center;
+  font-family: "Sora", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  margin: 30px;
+}
+
+.paragraph-servicios-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  word-spacing: 1px;
+  margin: 20px;
+}
+
+.servicios-img1 {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.paragraph-servicios-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  word-spacing: 1px;
+  margin: 20px;
+}
+
+.servicios.img2 {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.paragraph-servicios-3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  word-spacing: 1px;
+  margin: 20px;
+}
+
+.servicios-img3 {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.flex-container-servicios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph-clientes {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  word-spacing: 1px;
+  margin: 20px;
+}
+
+.subtitle-clientes {
+  text-align: left;
+  font-family: "Sora", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  margin: 30px;
+  padding-top: 50px;
+}
+
+.grid-clientes {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  list-style: none;
+  padding: 50px;
+  color: #54E346;
+  display: grid;
+  grid-template-rows: repeat(20 150%);
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+
+.grid-item {
+  padding: 20px 0px;
+  background-color: #0E49B5;
+  border: 1px solid #54E346;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-enlace {
+  height: 30px;
+  width: 50px;
+  margin: 5px;
+}
+
+.link-footer {
+  color: white;
+}
+
+.ubicacion-maps {
+  height: 20vh;
+  width: 25vw;
+  margin: 20px;
+}
+
+.title-nosotros, .title-servicios, .title-clientes, .title-contacto {
+  background-color: #0E49B5;
+  color: #54E346;
+  font-family: "Sora", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 50px 0px;
+  border: 2px solid #04c204;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  background-image: url(../Multimedia/materia\ prima1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background: linear-gradient(blue, #04c204);
+}
+
+main {
+  background-color: rgba(252, 252, 252, 0.8);
+}
+
+/*# sourceMappingURL=style.css.map */

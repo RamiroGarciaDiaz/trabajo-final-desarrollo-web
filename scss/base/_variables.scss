@@ -1,0 +1,16 @@
+// Variables
+
+@import "../base/listas";
+
+$roboto: 'Roboto', sans-serif;
+$sora: 'Sora', sans-serif;
+$colorPrincipal: nth($colores, 2);
+$colorSecundario: nth($colores, 3);
+$tamañoTitulos: 2.5rem;
+$tamañoSubtitulos: 1.2rem;
+$tamañoParrafos: 1rem;
+$wordSpacing: 1px;
+$marginTitulos: 50px 0px;
+$marginSubtitulos: 30px;
+$marginParrafos: 20px;
+$boderTitulos: 2px solid rgb(4, 194, 4);

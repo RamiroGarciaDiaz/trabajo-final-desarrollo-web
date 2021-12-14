@@ -1,0 +1,13 @@
+// Extends
+
+@import "../base/variables";
+
+%titulos {
+    background-color: $colorPrincipal;
+    color: $colorSecundario;
+    font-family: $sora;
+    font-size: $tamañoTitulos;
+    text-align: center;
+    margin: $marginTitulos;
+    border: $boderTitulos;
+}
