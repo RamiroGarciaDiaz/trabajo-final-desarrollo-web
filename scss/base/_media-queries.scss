@@ -1,0 +1,7 @@
+@import "../base/variables";
+
+.logo-akrol {
+    @media screen and (max-width: $phone) {
+        width: 100px;
+    }
+}
