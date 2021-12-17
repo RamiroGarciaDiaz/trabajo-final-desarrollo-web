@@ -1,9 +1,28 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .design-navbar {
   background-color: #0E49B5;
 }
@@ -28,12 +47,31 @@
   color: #0E49B5;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .section-1 {
   display: flex;
   justify-content: center;
@@ -58,12 +96,31 @@
   padding-top: 1px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .section-2 {
   font-family: "Sora", sans-serif;
   font-size: 1.2rem;
@@ -74,19 +131,19 @@
 
 .section-2-img1 {
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin: 10px;
 }
 
 .section-2-img2 {
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin: 10px;
 }
 
 .section-2-img3 {
   height: 250px;
-  width: 250px;
+  width: 100%;
   margin: 10px;
   padding-left: 20px;
 }
@@ -95,12 +152,31 @@
   padding-left: 90px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .paragraph-nosotros {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -109,12 +185,31 @@
   margin: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .subtitle-servicios {
   text-align: center;
   font-family: "Sora", sans-serif;
@@ -168,12 +263,31 @@
   align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .paragraph-clientes {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -210,12 +324,31 @@
   border: 1px solid #54E346;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
   .logo-akrol {
-    width: 100px;
+    width: 25%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-clientes {
+    grid-template-columns: 1fr;
+  }
+}
 .footer-flex {
   display: flex;
   justify-content: space-between;

@@ -1,7 +1,34 @@
 @import "../base/variables";
 
-.logo-akrol {
-    @media screen and (max-width: $phone) {
-        width: 100px;
+@media screen and (max-width: $phone) {
+    .logo-akrol {
+        width: 25%;
+    }
+
+    html {
+        font-size: 12px;
     }
 }
+
+@media screen and (max-width: $tablet) {
+    .flex-container-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section-2 {
+        display: none;
+    }
+}
+    
+@media  screen and (max-width: $tablet) {
+    .grid-clientes {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+    
