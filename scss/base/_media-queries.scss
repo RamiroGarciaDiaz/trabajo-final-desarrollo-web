@@ -1,20 +1,39 @@
 @import "../base/variables";
 
-@media screen and (max-width: $phone) {
-    .logo-akrol {
-        width: 25%;
-    }
-
-    html {
-        font-size: 12px;
-    }
-}
 
 @media screen and (max-width: $tablet) {
+
     .flex-container-servicios {
         display: flex;
         flex-direction: column;
     }
+
+    .servicios-img1, .servicios-img2, .servicios-img3 {
+        width: 100%;
+    }
+
+    .subtitle-clientes {
+        display: none;
+    }
+
+    .grid-clientes {
+        grid-template-columns: 90%;
+    }
+
+   .logo-akrol {
+       max-width: 100%;
+      
+   }
+
+   .link-footer {
+       font-size: 12px;
+   }
+
+   .ubicacion-maps {
+       width: 25vh;
+      margin: 0 10px;
+   }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -23,11 +42,7 @@
     }
 }
     
-@media  screen and (max-width: $tablet) {
-    .grid-clientes {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 
 

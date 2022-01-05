@@ -25,7 +25,7 @@
 }
 
 .servicios-img1 {
-    @include tamaño-img(300px, 300px, 20px);
+    @include tamaño-img(200px, 75%, 20px);
 }
 
 .paragraph-servicios-2 {
@@ -35,8 +35,8 @@
     margin: $marginParrafos;
 }
 
-.servicios.img2 {
-    @include tamaño-img(300px, 300px, 20px);
+.servicios-img2 {
+    @include tamaño-img(150px, 35%, 20px);
 }
 
 .paragraph-servicios-3 {
@@ -47,7 +47,7 @@
 }
 
 .servicios-img3 {
-    @include tamaño-img(300px, 300px, 20px);
+    @include tamaño-img(150px, 35%, 20px);
 }
 
 .flex-container-servicios {

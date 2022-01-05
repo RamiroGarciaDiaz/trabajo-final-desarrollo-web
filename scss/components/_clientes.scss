@@ -30,10 +30,10 @@
     font-family: $roboto;
     font-size: $tamañoParrafos;
     list-style: none;
-    padding: 50px;
+    padding: 20px;
     color: $colorSecundario;
     display: grid;
-    grid-template-rows: repeat(20 150%);
+    grid-template-rows: repeat(20 1fr);
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     text-align: center;

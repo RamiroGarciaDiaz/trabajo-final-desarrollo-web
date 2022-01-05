@@ -1,26 +1,37 @@
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .design-navbar {
@@ -47,29 +58,45 @@
   color: #0E49B5;
 }
 
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
+.logo-akrol {
+  max-width: 100%;
+  max-width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .section-1 {
@@ -96,29 +123,40 @@
   padding-top: 1px;
 }
 
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .section-2 {
@@ -152,29 +190,40 @@
   padding-left: 90px;
 }
 
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .paragraph-nosotros {
@@ -185,29 +234,40 @@
   margin: 20px;
 }
 
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .subtitle-servicios {
@@ -226,8 +286,8 @@
 }
 
 .servicios-img1 {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 75%;
   margin: 20px;
 }
 
@@ -238,9 +298,9 @@
   margin: 20px;
 }
 
-.servicios.img2 {
-  height: 300px;
-  width: 300px;
+.servicios-img2 {
+  height: 150px;
+  width: 35%;
   margin: 20px;
 }
 
@@ -252,8 +312,8 @@
 }
 
 .servicios-img3 {
-  height: 300px;
-  width: 300px;
+  height: 150px;
+  width: 35%;
   margin: 20px;
 }
 
@@ -263,29 +323,40 @@
   align-items: center;
 }
 
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .paragraph-clientes {
@@ -309,10 +380,10 @@
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   list-style: none;
-  padding: 50px;
+  padding: 20px;
   color: #54E346;
   display: grid;
-  grid-template-rows: repeat(20 150%);
+  grid-template-rows: repeat(20 1fr);
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   text-align: center;
@@ -324,29 +395,40 @@
   border: 1px solid #54E346;
 }
 
-@media screen and (max-width: 360px) {
-  .logo-akrol {
-    width: 25%;
-  }
-
-  html {
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex-container-servicios {
     display: flex;
     flex-direction: column;
   }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .section-2 {
     display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .grid-clientes {
-    grid-template-columns: 1fr;
   }
 }
 .footer-flex {
@@ -372,7 +454,7 @@
 .ubicacion-maps {
   height: 20vh;
   width: 25vw;
-  margin: 20px;
+  margin: 0 10px;
 }
 
 .title-nosotros, .title-servicios, .title-clientes, .title-contacto {
@@ -385,17 +467,53 @@
   border: 2px solid #04c204;
 }
 
+@media screen and (max-width: 768px) {
+  .flex-container-servicios {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-img1, .servicios-img2, .servicios-img3 {
+    width: 100%;
+  }
+
+  .subtitle-clientes {
+    display: none;
+  }
+
+  .grid-clientes {
+    grid-template-columns: 90%;
+  }
+
+  .logo-akrol {
+    max-width: 100%;
+  }
+
+  .link-footer {
+    font-size: 12px;
+  }
+
+  .ubicacion-maps {
+    width: 25vh;
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-2 {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 body {
-  background-image: url(../Multimedia/materia\ prima1.jpg);
+  background-image: url(../Multimedia/materia\ prima1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -412,6 +530,16 @@ footer {
 
 main {
   background-color: rgba(252, 252, 252, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    margin: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
